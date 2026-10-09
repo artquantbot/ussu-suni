@@ -1,6 +1,6 @@
 # Bir katkının yolculuğu
 
-Ussu Suni, Türkçe yapay zekâ için insan katkısını iyi tanımlanmış ve doğrulanabilir öğrenme adaylarına dönüştürmeyi araştırır. Küçük model başlangıçtır; yöntem tüm ölçekleri kapsar.
+us-u suni, Türkçe yapay zekâ için insan katkısını iyi tanımlanmış ve doğrulanabilir öğrenme adaylarına dönüştürmeyi araştırır. Küçük model başlangıçtır; yöntem tüm ölçekleri kapsar.
 
 1. Görevi, tam model sürümünü, istemi, yanıtı ve beklenen davranışı kaydet.
 2. Kaynağı, yöntemi, belirsizliği ve karşı kanıtı belirt.

@@ -1,4 +1,4 @@
-# Ussu Suni × Nehir
+# us-u suni × Nehir
 
 Yayın: https://ussu-suni.pages.dev/
 

@@ -2,7 +2,7 @@
   "name": "ussu-suni",
   "version": "0.2.0",
   "private": true,
-  "description": "Ussu Suni: Türkçe yapay zekâ araştırması, kaynaklı benchmarklar ve Nehir katkı adayları",
+  "description": "us-u suni: Türkçe yapay zekâ araştırması, kaynaklı benchmarklar ve Nehir katkı adayları",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "check": "node --check public/app.js && node --check public/game.js && node --check public/benchmarks.js && node --check scripts/serve.mjs",
