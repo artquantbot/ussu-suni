@@ -12,6 +12,7 @@ body:
       label: Katkı türü
       options:
         - Türkçe / beceri düzeltmesi
+        - Görselden metne / okuma ve betimleme
         - Hata / karşı örnek
         - Kaynak / iddia doğrulama
         - Geçici bilgi
@@ -39,6 +40,11 @@ body:
       description: İddiayı doğrudan destekleyen kaynak, erişim tarihi, yöntem ve karşı kanıt. Kaynak doğrulama türünde doldurulmalıdır.
     validations:
       required: true
+  - type: textarea
+    id: visual
+    attributes:
+      label: Görselden metne görevi
+      description: Bu türde görselin kaynak bağlantısını, okuma veya betimleme görevini ve beklenen Türkçe metni belirt. Okunamayan bölümleri işaretle. Köken ve lisans görseli de kapsamalı. Eğitim ve test kümelerine ayrım incelemeden sonra yapılır.
   - type: dropdown
     id: risk
     attributes:
