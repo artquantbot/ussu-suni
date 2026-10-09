@@ -5,7 +5,7 @@
   "description": "Ussu Suni: Türkçe yapay zekâ araştırması, kaynaklı benchmarklar ve Nehir katkı adayları",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "check": "node --check public/app.js && node --check public/benchmarks.js && node --check scripts/serve.mjs",
+    "check": "node --check public/app.js && node --check public/game.js && node --check public/benchmarks.js && node --check scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/site.test.mjs",
     "deploy": "npm run build && WRANGLER_SEND_METRICS=false wrangler pages deploy dist --project-name ussu-suni --branch main"

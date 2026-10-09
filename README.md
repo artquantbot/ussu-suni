@@ -43,3 +43,7 @@ Cloudflare Pages **salt statik Direct Upload**. Pages Functions, Worker runtime,
 Yayın betiği yalnızca daha önce oluşturulan `ussu-suni` projesine statik dosyaları yükler. Başka projeler, domainler veya Worker rotaları değiştirilmez. Ana domain geçişi, doğru yazım ve mevcut eşleştirmeler doğrulandıktan sonra ayrı yapılır.
 
 `public/_headers` CSP ve güvenlik başlıklarını içerir; `connect-src 'none'` uzak API çağrılarını engeller. `robots.txt` araştırma sürümünü indekslemeye kapatır; erişim kontrolü değildir. Özel vizyon kaynakları ve yerel proje notları bu açık depoya dahil edilmez.
+
+### Damla ile Nehir yolu
+
+Dört durakta 12 öğretici soru: Türkçe anlatım, belirsizlik, kanıt ve öğrenme izinleri. İlk tamamlanan durak 20 XP, ilk kaydedilen katkı paketi 10 XP verir. Yanlış yanıtta açıklama ve yeniden deneme vardır; can veya ücret sınırı yoktur. Tekrarlar günlük hedefe bir kez sayılır, yeniden XP üretmez. Günlük hedef ve seri Türkiye saatine göre hesaplanır. İlerleme, yarım kalan durak ve rozetler mevcut yerel kayıtla aynı tarayıcıda saklanır. XP doğruluk, uzmanlık veya topluluk güveni göstergesi değildir; eğitim izni XP'yi etkilemez. Sorular elle hazırlanmıştır; model çağrısı yapılmaz.
