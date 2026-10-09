@@ -1,0 +1,9 @@
+dist/
+.DS_Store
+work/
+node_modules/
+.wrangler/
+.dev.vars*
+.env*
+docs/NEHIR-VISION.md
+docs/PROJECT-CONTEXT.md

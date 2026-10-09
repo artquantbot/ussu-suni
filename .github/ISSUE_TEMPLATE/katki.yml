@@ -1,0 +1,86 @@
+name: Nehir katkı adayı
+description: Türkçe bir test örneği, model hatası veya kaynak doğrulaması öner.
+title: "[Katkı] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bu depo herkese açıktır. Kişisel veya gizli bilgi paylaşma. Sitede hazırladığın JSON paketini gözden geçirip aşağıdaki alanlara aktarabilir veya gerekçene ekleyebilirsin. Her gönderim doğrulanmamış bir adaydır; model otomatik eğitilmez.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Katkı türü
+      options:
+        - Türkçe / beceri düzeltmesi
+        - Hata / karşı örnek
+        - Kaynak / iddia doğrulama
+        - Geçici bilgi
+        - Araştırma / yarışma fikri
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Görev, model ve gözlenen yanıt
+      description: İstemi, tam model sürümünü, ayarları ve hatayı yeniden üretmek için gerekli koşulları belirt. Model yanıtı yoksa araştırma görevini anlat.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen davranış ve gerekçe
+      description: Kabul edilebilir alternatifleri ve neden daha iyi olduğunu yaz. Yalnızca kişisel beğeniyle doğruluk iddiasını ayır.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Kaynak, yöntem ve belirsizlik
+      description: İddiayı doğrudan destekleyen kaynak, erişim tarihi, yöntem ve karşı kanıt. Kaynak doğrulama türünde doldurulmalıdır.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk ve belirsizlik
+      options:
+        - Düşük risk / dayanak var
+        - Düşük risk / emin değilim
+        - Tartışmalı veya çelişen kanıt var
+        - Yüksek risk / uzman incelemesi gerekli
+    validations:
+      required: true
+  - type: dropdown
+    id: origin
+    attributes:
+      label: Köken ve lisans
+      options:
+        - Özgün katkım / CC0 1.0
+        - Özgün katkım / CC BY 4.0
+        - Özgün katkım / lisans henüz kararlaştırılmadı
+        - Model çıktısı / kullanım koşulları incelenmeli
+        - Üçüncü taraf içerik / haklar ve lisans incelenmeli
+    validations:
+      required: true
+  - type: dropdown
+    id: training
+    attributes:
+      label: Eğitim tercihi
+      description: İzin verilmesi tek başına eğitime kabul anlamına gelmez. Üçüncü taraf hakları ayrıca doğrulanır.
+      options:
+        - Eğitimde kullanım izni vermiyorum
+        - Karar vermeden önce ayrıca sorulsun
+        - Hak sahibi olduğum özgün katkı için eğitim izni veriyorum
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Açık yayın kontrolü
+      options:
+        - label: Bu gönderimin herkese açık olacağını biliyorum ve açık incelemeye sunulmasını istiyorum.
+          required: true
+        - label: Kişisel, gizli ve izinsiz paylaşılan bilgi bulunmadığını kontrol ettim.
+          required: true
+        - label: Bu katkının bağımsız doğrulama, lisans ve mahremiyet kontrollerinden önce eğitim verisi olmadığını biliyorum.
+          required: true
