@@ -1,5 +1,7 @@
 # Ussu Suni × Nehir
 
+Yayın: https://ussu-suni.pages.dev/
+
 Türkçe yapay zekâ için mobil ağırlıklı topluluk ve araştırma sitesi. Küçük modellerle başlar; tüm ölçekleri kanıt, Türkçe niteliği ve kaynak verimliliği üzerinden karşılaştırmayı hedefler.
 
 ## Yerel çalışma
